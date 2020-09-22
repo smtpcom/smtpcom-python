@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/smtpcom/smtpcom-python/branch/master/graph/badge.svg?token=W94ELHX7QD)](https://codecov.io/gh/smtpcom/smtpcom-python)
 # smtp
 SMTP.com Public API v4
 

@@ -45,7 +45,7 @@ class TestMessagesResponseData(unittest.TestCase):
                         smtp_vars = smtp.models.smtp_vars.smtp_vars(), 
                         msg_data = smtp.models.messages_response_data_msg_data.MessagesResponse_data_msg_data(
                             rcpt_to = '0', 
-                            from = '0', 
+                            _from = '0',
                             subject = '0', ), 
                         details = smtp.models.messages_response_data_details.MessagesResponse_data_details(
                             delivery = smtp.models.messages_response_data_details_delivery.MessagesResponse_data_details_delivery(
