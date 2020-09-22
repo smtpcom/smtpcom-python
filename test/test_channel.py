@@ -38,7 +38,7 @@ class TestChannel(unittest.TestCase):
         if include_optional :
             return Channel(
                 status = '0', 
-                data = smtp.models.channel_data.Channel_data(
+                data = smtp.models.channel_data.ChannelData(
                     status = '0', 
                     quota = 56, 
                     label = '0', 

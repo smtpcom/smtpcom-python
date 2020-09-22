@@ -38,7 +38,7 @@ class TestCreateDkimKey(unittest.TestCase):
         if include_optional :
             return CreateDkimKey(
                 status = '0', 
-                data = smtp.models.create_dkim_key_data.CreateDkimKey_data(
+                data = smtp.models.create_dkim_key_data.CreateDkimKeyData(
                     dkim_key = '0', )
             )
         else :

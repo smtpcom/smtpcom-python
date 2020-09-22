@@ -38,7 +38,7 @@ class TestGetDomainsResponseData(unittest.TestCase):
         if include_optional :
             return GetDomainsResponseData(
                 items = [
-                    smtp.models.get_domains_response_data_items.GetDomainsResponse_data_items(
+                    smtp.models.get_domains_response_data_items.GetDomainsResponseDataItems(
                         domain_name = '0', 
                         enabled = True, )
                     ]

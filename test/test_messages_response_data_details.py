@@ -37,7 +37,7 @@ class TestMessagesResponseDataDetails(unittest.TestCase):
         # model = smtp.models.messages_response_data_details.MessagesResponseDataDetails()  # noqa: E501
         if include_optional :
             return MessagesResponseDataDetails(
-                delivery = smtp.models.messages_response_data_details_delivery.MessagesResponse_data_details_delivery(
+                delivery = smtp.models.messages_response_data_details_delivery.MessagesResponseDataDetailsDelivery(
                     finished = '0', 
                     retries = 56, 
                     event = '0', 

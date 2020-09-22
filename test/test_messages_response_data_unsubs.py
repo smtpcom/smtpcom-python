@@ -38,7 +38,7 @@ class TestMessagesResponseDataUnsubs(unittest.TestCase):
         if include_optional :
             return MessagesResponseDataUnsubs(
                 items = [
-                    smtp.models.messages_response_data_unsubs_items.MessagesResponse_data_unsubs_items(
+                    smtp.models.messages_response_data_unsubs_items.MessagesResponseDataUnsubsItems(
                         unsub_time = '0', )
                     ]
             )

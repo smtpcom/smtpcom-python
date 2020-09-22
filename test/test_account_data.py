@@ -44,7 +44,7 @@ class TestAccountData(unittest.TestCase):
                 website = '0', 
                 email = '0', 
                 company_name = '0', 
-                address = smtp.models.account_data_address.Account_data_address(
+                address = smtp.models.account_data_address.AccountDataAddress(
                     street = '0', 
                     city = '0', 
                     state = '0', 

@@ -38,7 +38,7 @@ class TestMessagesResponseDataOpens(unittest.TestCase):
         if include_optional :
             return MessagesResponseDataOpens(
                 items = [
-                    smtp.models.messages_response_data_opens_items.MessagesResponse_data_opens_items(
+                    smtp.models.messages_response_data_opens_items.MessagesResponseDataOpensItems(
                         open_time = '0', 
                         remote_ip = '0', 
                         ua = '0', )

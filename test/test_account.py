@@ -38,7 +38,7 @@ class TestAccount(unittest.TestCase):
         if include_optional :
             return Account(
                 status = '0', 
-                data = smtp.models.account_data.Account_data(
+                data = smtp.models.account_data.AccountData(
                     status = '0', 
                     first_name = '0', 
                     last_name = '0', 
@@ -46,7 +46,7 @@ class TestAccount(unittest.TestCase):
                     website = '0', 
                     email = '0', 
                     company_name = '0', 
-                    address = smtp.models.account_data_address.Account_data_address(
+                    address = smtp.models.account_data_address.AccountDataAddress(
                         street = '0', 
                         city = '0', 
                         state = '0', 

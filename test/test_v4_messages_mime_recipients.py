@@ -38,22 +38,22 @@ class TestV4MessagesMimeRecipients(unittest.TestCase):
         if include_optional :
             return V4MessagesMimeRecipients(
                 to = [
-                    smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ], 
                 cc = [
-                    smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ], 
                 bcc = [
-                    smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ], 
                 bulk_list = [
-                    smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ]

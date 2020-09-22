@@ -38,9 +38,9 @@ class TestReports(unittest.TestCase):
         if include_optional :
             return Reports(
                 status = '0', 
-                data = smtp.models.reports_data.Reports_data(
+                data = smtp.models.reports_data.ReportsData(
                     periodic = [
-                        smtp.models.reports_data_periodic.Reports_data_periodic(
+                        smtp.models.reports_data_periodic.ReportsDataPeriodic(
                             frequency = 'monthly', 
                             report_id = '0', 
                             events = '0', 
@@ -48,7 +48,7 @@ class TestReports(unittest.TestCase):
                             report_time = '0', )
                         ], 
                     ondemand = [
-                        smtp.models.reports_data_ondemand.Reports_data_ondemand(
+                        smtp.models.reports_data_ondemand.ReportsDataOndemand(
                             status = 'in_progress', 
                             name = '0', 
                             url = '0', 

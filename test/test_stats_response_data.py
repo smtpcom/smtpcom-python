@@ -38,7 +38,7 @@ class TestStatsResponseData(unittest.TestCase):
         if include_optional :
             return StatsResponseData(
                 items = [
-                    smtp.models.stats_response_data_items.StatsResponse_data_items(
+                    smtp.models.stats_response_data_items.StatsResponseDataItems(
                         accepted = 56, 
                         complained = 56, 
                         delivered = 56, 

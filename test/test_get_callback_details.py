@@ -38,7 +38,7 @@ class TestGetCallbackDetails(unittest.TestCase):
         if include_optional :
             return GetCallbackDetails(
                 status = '0', 
-                data = smtp.models.get_callback_details_data.GetCallbackDetails_data(
+                data = smtp.models.get_callback_details_data.GetCallbackDetailsData(
                     medium = 'http', 
                     event = '0', 
                     channel = '0', 

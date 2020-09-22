@@ -38,8 +38,8 @@ class TestBadRequestSchema(unittest.TestCase):
         if include_optional :
             return BadRequestSchema(
                 status = '0', 
-                data = smtp.models.bad_request_schema_data.BadRequestSchema_data(
-                    errors = smtp.models.errors.errors(), )
+                data = smtp.models.bad_request_schema_data.BadRequestSchemaData(
+                    errors = KeyError(), )
             )
         else :
             return BadRequestSchema(

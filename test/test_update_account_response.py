@@ -38,7 +38,7 @@ class TestUpdateAccountResponse(unittest.TestCase):
         if include_optional :
             return UpdateAccountResponse(
                 status = '0', 
-                data = smtp.models.update_account_response_data.UpdateAccountResponse_data(
+                data = smtp.models.update_account_response_data.UpdateAccountResponseData(
                     account = '0', )
             )
         else :

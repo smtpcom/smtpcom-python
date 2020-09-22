@@ -38,7 +38,7 @@ class TestGetDomainDetails(unittest.TestCase):
         if include_optional :
             return GetDomainDetails(
                 status = '0', 
-                data = smtp.models.get_domain_details_data.GetDomainDetails_data(
+                data = smtp.models.get_domain_details_data.GetDomainDetailsData(
                     domain_name = '0', 
                     selector = '0', 
                     private_key = '0', 

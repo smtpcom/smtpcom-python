@@ -38,7 +38,7 @@ class TestGetCallbackLogsData(unittest.TestCase):
         if include_optional :
             return GetCallbackLogsData(
                 items = [
-                    smtp.models.get_callback_logs_data_items.GetCallbackLogs_data_items(
+                    smtp.models.get_callback_logs_data_items.GetCallbackLogsDataItems(
                         code = 56, 
                         msg = '0', 
                         time = '0', )

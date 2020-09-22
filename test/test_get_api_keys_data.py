@@ -38,7 +38,7 @@ class TestGetApiKeysData(unittest.TestCase):
         if include_optional :
             return GetApiKeysData(
                 items = [
-                    smtp.models.get_api_keys_data_items.GetApiKeys_data_items(
+                    smtp.models.get_api_keys_data_items.GetApiKeysDataItems(
                         status = '0', 
                         description = '0', 
                         key = '0', 

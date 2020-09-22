@@ -38,7 +38,7 @@ class TestPostMessageResponse(unittest.TestCase):
         if include_optional :
             return PostMessageResponse(
                 status = '0', 
-                data = smtp.models.post_message_response_data.PostMessageResponse_data(
+                data = smtp.models.post_message_response_data.PostMessageResponseData(
                     msg_id = '0', )
             )
         else :

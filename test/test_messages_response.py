@@ -38,33 +38,32 @@ class TestMessagesResponse(unittest.TestCase):
         if include_optional :
             return MessagesResponse(
                 status = '0', 
-                data = smtp.models.messages_response_data.MessagesResponse_data(
+                data = smtp.models.messages_response_data.MessagesResponseData(
                     items = [
-                        smtp.models.messages_response_data_items.MessagesResponse_data_items(
+                        smtp.models.messages_response_data_items.MessagesResponseDataItems(
                             msg_id = '0', 
                             msg_time = 56, 
                             channel = '0', 
-                            smtp_vars = smtp.models.smtp_vars.smtp_vars(), 
-                            msg_data = smtp.models.messages_response_data_msg_data.MessagesResponse_data_msg_data(
+                            msg_data = smtp.models.messages_response_data_msg_data.MessagesResponseDataMsgData(
                                 rcpt_to = '0', 
                                 _from = '0',
                                 subject = '0', ), 
-                            details = smtp.models.messages_response_data_details.MessagesResponse_data_details(
-                                delivery = smtp.models.messages_response_data_details_delivery.MessagesResponse_data_details_delivery(
+                            details = smtp.models.messages_response_data_details.MessagesResponseDataDetails(
+                                delivery = smtp.models.messages_response_data_details_delivery.MessagesResponseDataDetailsDelivery(
                                     finished = '0', 
                                     retries = 56, 
                                     event = '0', 
                                     code = '0', 
                                     status = '0', ), ), 
-                            opens = smtp.models.messages_response_data_opens.MessagesResponse_data_opens(), 
-                            clicks = smtp.models.messages_response_data_clicks.MessagesResponse_data_clicks(), 
-                            abuse = smtp.models.messages_response_data_abuse.MessagesResponse_data_abuse(
+                            opens = smtp.models.messages_response_data_opens.MessagesResponseDataOpens(),
+                            clicks = smtp.models.messages_response_data_clicks.MessagesResponseDataClicks(),
+                            abuse = smtp.models.messages_response_data_abuse.MessagesResponseDataAbuse(
                                 complaints = [
-                                    smtp.models.messages_response_data_abuse_complaints.MessagesResponse_data_abuse_complaints(
+                                    smtp.models.messages_response_data_abuse_complaints.MessagesResponseDataAbuseComplaints(
                                         report_time = '0', 
                                         provider = '0', )
                                     ], ), 
-                            unsubs = smtp.models.messages_response_data_unsubs.MessagesResponse_data_unsubs(), )
+                            unsubs = smtp.models.messages_response_data_unsubs.MessagesResponseDataUnsubs(), )
                         ], )
             )
         else :

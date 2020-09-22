@@ -37,10 +37,10 @@ class TestV4MessagesOriginator(unittest.TestCase):
         # model = smtp.models.v4_messages_originator.V4MessagesOriginator()  # noqa: E501
         if include_optional :
             return V4MessagesOriginator(
-                _from = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                _from = smtp.models.V4MessagesRecipientsTo(
                     name = '0', 
                     address = '0', ), 
-                reply_to = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                reply_to = smtp.models.V4MessagesRecipientsTo(
                     name = '0', 
                     address = '0', )
             )

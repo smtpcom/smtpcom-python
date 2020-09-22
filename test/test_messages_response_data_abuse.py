@@ -38,7 +38,7 @@ class TestMessagesResponseDataAbuse(unittest.TestCase):
         if include_optional :
             return MessagesResponseDataAbuse(
                 complaints = [
-                    smtp.models.messages_response_data_abuse_complaints.MessagesResponse_data_abuse_complaints(
+                    smtp.models.messages_response_data_abuse_complaints.MessagesResponseDataAbuseComplaints(
                         report_time = '0', 
                         provider = '0', )
                     ]

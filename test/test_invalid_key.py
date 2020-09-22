@@ -38,9 +38,9 @@ class TestInvalidKey(unittest.TestCase):
         if include_optional :
             return InvalidKey(
                 status = '0', 
-                data = smtp.models.invalid_key_data.InvalidKey_data(
+                data = smtp.models.invalid_key_data.InvalidKeyData(
                     errors = [
-                        smtp.models.invalid_key_data_errors.InvalidKey_data_errors(
+                        smtp.models.invalid_key_data_errors.InvalidKeyDataErrors(
                             error_field = '0', )
                         ], )
             )

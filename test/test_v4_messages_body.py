@@ -38,7 +38,7 @@ class TestV4MessagesBody(unittest.TestCase):
         if include_optional :
             return V4MessagesBody(
                 parts = [
-                    smtp.models._v4_messages_body_parts._v4_messages_body_parts(
+                    smtp.models.V4MessagesBodyParts(
                         version = '0', 
                         type = '0', 
                         charset = '0', 
@@ -46,7 +46,7 @@ class TestV4MessagesBody(unittest.TestCase):
                         content = '0', )
                     ], 
                 attachments = [
-                    smtp.models._v4_messages_body_attachments._v4_messages_body_attachments(
+                    smtp.models.V4MessagesBodyAttachments(
                         version = '0', 
                         type = '0', 
                         disposition = '0', 

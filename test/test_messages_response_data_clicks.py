@@ -38,7 +38,7 @@ class TestMessagesResponseDataClicks(unittest.TestCase):
         if include_optional :
             return MessagesResponseDataClicks(
                 items = [
-                    smtp.models.messages_response_data_clicks_items.MessagesResponse_data_clicks_items(
+                    smtp.models.messages_response_data_clicks_items.MessagesResponseDataClicksItems(
                         click_time = '0', 
                         remote_ip = '0', 
                         ua = '0', )

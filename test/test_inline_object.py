@@ -38,39 +38,39 @@ class TestInlineObject(unittest.TestCase):
         if include_optional :
             return InlineObject(
                 channel = '0', 
-                recipients = smtp.models._v4_messages_recipients._v4_messages_recipients(
+                recipients = smtp.models.V4MessagesRecipients(
                     to = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     cc = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bcc = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bulk_list = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], ), 
-                originator = smtp.models._v4_messages_originator._v4_messages_originator(
-                    _from = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                originator = smtp.models.V4MessagesOriginator(
+                    _from = smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), 
-                    reply_to = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    reply_to = smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), ), 
                 custom_headers = None, 
                 subject = '0', 
-                body = smtp.models._v4_messages_body._v4_messages_body(
+                body = smtp.models.V4MessagesBody(
                     parts = [
-                        smtp.models._v4_messages_body_parts._v4_messages_body_parts(
+                        smtp.models.V4MessagesBodyParts(
                             version = '0', 
                             type = '0', 
                             charset = '0', 
@@ -78,7 +78,7 @@ class TestInlineObject(unittest.TestCase):
                             content = '0', )
                         ], 
                     attachments = [
-                        smtp.models._v4_messages_body_attachments._v4_messages_body_attachments(
+                        smtp.models.V4MessagesBodyAttachments(
                             version = '0', 
                             type = '0', 
                             disposition = '0', 

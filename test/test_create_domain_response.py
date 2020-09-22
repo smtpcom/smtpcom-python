@@ -38,7 +38,7 @@ class TestCreateDomainResponse(unittest.TestCase):
         if include_optional :
             return CreateDomainResponse(
                 status = '0', 
-                data = smtp.models.create_domain_response_data.CreateDomainResponse_data(
+                data = smtp.models.create_domain_response_data.CreateDomainResponseData(
                     domain_name = '0', )
             )
         else :

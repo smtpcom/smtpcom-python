@@ -39,32 +39,32 @@ class TestInlineObject1(unittest.TestCase):
             return InlineObject1(
                 mime = '0', 
                 channel = '0', 
-                recipients = smtp.models._v4_messages_mime_recipients._v4_messages_mime_recipients(
+                recipients = smtp.models.V4MessagesMimeRecipients(
                     to = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     cc = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bcc = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bulk_list = [
-                        smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                        smtp.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], ), 
-                originator = smtp.models._v4_messages_originator._v4_messages_originator(
-                    _from = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                originator = smtp.models.V4MessagesOriginator(
+                    _from = smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), 
-                    reply_to = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    reply_to = smtp.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), )
             )

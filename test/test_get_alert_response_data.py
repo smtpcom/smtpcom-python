@@ -38,7 +38,7 @@ class TestGetAlertResponseData(unittest.TestCase):
         if include_optional :
             return GetAlertResponseData(
                 items = [
-                    smtp.models.get_alert_response_data_items.GetAlertResponse_data_items(
+                    smtp.models.get_alert_response_data_items.GetAlertResponseDataItems(
                         type = 'monthly_quota', 
                         threshold = '0.5', 
                         alert_id = '0', )

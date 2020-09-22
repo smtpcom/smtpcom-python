@@ -37,7 +37,7 @@ class TestBadRequestSchemaData(unittest.TestCase):
         # model = smtp.models.bad_request_schema_data.BadRequestSchemaData()  # noqa: E501
         if include_optional :
             return BadRequestSchemaData(
-                errors = smtp.models.errors.errors()
+                errors = KeyError()
             )
         else :
             return BadRequestSchemaData(
