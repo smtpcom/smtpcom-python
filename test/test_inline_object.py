@@ -60,7 +60,7 @@ class TestInlineObject(unittest.TestCase):
                             address = '0', )
                         ], ), 
                 originator = smtp.models._v4_messages_originator._v4_messages_originator(
-                    from = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
+                    _from = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
                         name = '0', 
                         address = '0', ), 
                     reply_to = smtp.models._v4_messages_recipients_to._v4_messages_recipients_to(
