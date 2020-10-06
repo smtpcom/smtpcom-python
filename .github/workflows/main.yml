@@ -30,7 +30,7 @@ jobs:
       run: |
         pip install -r requirements.txt
         pip install -r test-requirements.txt
-        pytest --cov=smtp --cov-report=xml
+        pytest --cov=smtpcom --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
