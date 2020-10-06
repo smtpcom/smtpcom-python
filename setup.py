@@ -30,12 +30,12 @@ setup(
     description="SMTP Public API",
     author="SMTP.com support",
     author_email="support@smtp.com",
-    url="smtp.com",
+    url="http://smtp.com",
     keywords=["OpenAPI", "OpenAPI-Generator", "SMTP Public API"],
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
     include_package_data=True,
-    license="Apache 2.0",
+    license="MIT",
     long_description="""\
     SMTP.com Public API v4 
     """,
