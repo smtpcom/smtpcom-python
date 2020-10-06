@@ -1,7 +1,7 @@
 from pprint import pprint
 
-import smtp
-from smtp import ApiException, V4MessagesRecipients, V4MessagesRecipientsTo, V4MessagesOriginator, \
+import smtpcom
+from smtpcom import ApiException, V4MessagesRecipients, V4MessagesRecipientsTo, V4MessagesOriginator, \
     V4MessagesBody, V4MessagesBodyParts
 
 
@@ -10,22 +10,22 @@ test_api_key = 'your_api_key'
 test_sender = 'your_sender_label'
 
 
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     api_key={
         'apiKey': test_api_key
     }
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.MessagesApi(api_client)
+    api_instance = smtpcom.MessagesApi(api_client)
 
     recipients = V4MessagesRecipients(to=[V4MessagesRecipientsTo(name='test', address=test_email)])
     originator = V4MessagesOriginator(_from=V4MessagesRecipientsTo(name='test', address=test_email))
     body = V4MessagesBody(parts=[V4MessagesBodyParts(content='Hello')])
     channel = test_sender  # Sender Label
-    inline_object = smtp.InlineObject(
+    inline_object = smtpcom.InlineObject(
         recipients=recipients,
         originator=originator,
         subject='Test',

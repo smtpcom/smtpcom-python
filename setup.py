@@ -1,7 +1,7 @@
 # coding: utf-8
 
 """
-    SMTP Public API overview
+    SMTP Public API
 
     SMTP.com Public API v4  # noqa: E501
 
@@ -27,16 +27,23 @@ REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 setup(
     name=NAME,
     version=VERSION,
-    description="SMTP Public API overview",
+    description="SMTP Public API",
     author="SMTP.com support",
     author_email="support@smtp.com",
-    url="",
-    keywords=["OpenAPI", "OpenAPI-Generator", "SMTP Public API overview"],
+    url="smtp.com",
+    keywords=["OpenAPI", "OpenAPI-Generator", "SMTP Public API"],
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
     include_package_data=True,
     license="Apache 2.0",
     long_description="""\
-    SMTP.com Public API v4  # noqa: E501
-    """
+    SMTP.com Public API v4 
+    """,
+    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
+    classifiers=[
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+    ]
 )

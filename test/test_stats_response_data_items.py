@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.stats_response_data_items import StatsResponseDataItems  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.stats_response_data_items import StatsResponseDataItems  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestStatsResponseDataItems(unittest.TestCase):
     """StatsResponseDataItems unit test stubs"""
@@ -34,7 +34,7 @@ class TestStatsResponseDataItems(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.stats_response_data_items.StatsResponseDataItems()  # noqa: E501
+        # model = smtpcom.models.stats_response_data_items.StatsResponseDataItems()  # noqa: E501
         if include_optional :
             return StatsResponseDataItems(
                 accepted = 56, 

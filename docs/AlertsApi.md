@@ -22,12 +22,12 @@ Delete Alert
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -37,7 +37,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -47,7 +47,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -57,15 +57,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 
     try:
@@ -80,12 +80,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -95,7 +95,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -105,7 +105,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -115,15 +115,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 
     try:
@@ -138,12 +138,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -153,7 +153,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -163,7 +163,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -173,15 +173,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 
     try:
@@ -231,12 +231,12 @@ Get Alert Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -246,7 +246,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -256,7 +256,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -266,15 +266,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 
     try:
@@ -289,12 +289,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -304,7 +304,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -314,7 +314,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -324,15 +324,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 
     try:
@@ -347,12 +347,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -362,7 +362,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -372,7 +372,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -382,15 +382,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 
     try:
@@ -440,12 +440,12 @@ Update Alert Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -455,7 +455,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -465,7 +465,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -475,15 +475,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 threshold = 3.4 # float | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1 (optional)
 
@@ -499,12 +499,12 @@ threshold = 3.4 # float | A number which represents a percentage of an account�
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -514,7 +514,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -524,7 +524,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -534,15 +534,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 threshold = 3.4 # float | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1 (optional)
 
@@ -558,12 +558,12 @@ threshold = 3.4 # float | A number which represents a percentage of an account�
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -573,7 +573,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -583,7 +583,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -593,15 +593,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     alert_id = 'alert_id_example' # str | Id of a given alert
 threshold = 3.4 # float | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1 (optional)
 
@@ -653,12 +653,12 @@ List All Allerts
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -668,7 +668,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -678,7 +678,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -688,15 +688,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     
     try:
         # List All Allerts
@@ -710,12 +710,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -725,7 +725,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -735,7 +735,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -745,15 +745,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     
     try:
         # List All Allerts
@@ -767,12 +767,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -782,7 +782,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -792,7 +792,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -802,15 +802,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     
     try:
         # List All Allerts
@@ -856,12 +856,12 @@ Create New Alert
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -871,7 +871,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -881,7 +881,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -891,15 +891,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     type = 'type_example' # str | An alert’s type. Currently only “monthly_quota” is supported
 threshold = 3.4 # float | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1 (optional)
 
@@ -915,12 +915,12 @@ threshold = 3.4 # float | A number which represents a percentage of an account�
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -930,7 +930,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -940,7 +940,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -950,15 +950,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     type = 'type_example' # str | An alert’s type. Currently only “monthly_quota” is supported
 threshold = 3.4 # float | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1 (optional)
 
@@ -974,12 +974,12 @@ threshold = 3.4 # float | A number which represents a percentage of an account�
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -989,7 +989,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -999,7 +999,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1009,15 +1009,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.AlertsApi(api_client)
+    api_instance = smtpcom.AlertsApi(api_client)
     type = 'type_example' # str | An alert’s type. Currently only “monthly_quota” is supported
 threshold = 3.4 # float | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1 (optional)
 

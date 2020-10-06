@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.messages_response import MessagesResponse  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.messages_response import MessagesResponse  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestMessagesResponse(unittest.TestCase):
     """MessagesResponse unit test stubs"""
@@ -34,36 +34,36 @@ class TestMessagesResponse(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.messages_response.MessagesResponse()  # noqa: E501
+        # model = smtpcom.models.messages_response.MessagesResponse()  # noqa: E501
         if include_optional :
             return MessagesResponse(
                 status = '0', 
-                data = smtp.models.messages_response_data.MessagesResponseData(
+                data = smtpcom.models.messages_response_data.MessagesResponseData(
                     items = [
-                        smtp.models.messages_response_data_items.MessagesResponseDataItems(
+                        smtpcom.models.messages_response_data_items.MessagesResponseDataItems(
                             msg_id = '0', 
                             msg_time = 56, 
                             channel = '0', 
-                            msg_data = smtp.models.messages_response_data_msg_data.MessagesResponseDataMsgData(
+                            msg_data = smtpcom.models.messages_response_data_msg_data.MessagesResponseDataMsgData(
                                 rcpt_to = '0', 
                                 _from = '0',
                                 subject = '0', ), 
-                            details = smtp.models.messages_response_data_details.MessagesResponseDataDetails(
-                                delivery = smtp.models.messages_response_data_details_delivery.MessagesResponseDataDetailsDelivery(
+                            details = smtpcom.models.messages_response_data_details.MessagesResponseDataDetails(
+                                delivery = smtpcom.models.messages_response_data_details_delivery.MessagesResponseDataDetailsDelivery(
                                     finished = '0', 
                                     retries = 56, 
                                     event = '0', 
                                     code = '0', 
                                     status = '0', ), ), 
-                            opens = smtp.models.messages_response_data_opens.MessagesResponseDataOpens(),
-                            clicks = smtp.models.messages_response_data_clicks.MessagesResponseDataClicks(),
-                            abuse = smtp.models.messages_response_data_abuse.MessagesResponseDataAbuse(
+                            opens = smtpcom.models.messages_response_data_opens.MessagesResponseDataOpens(),
+                            clicks = smtpcom.models.messages_response_data_clicks.MessagesResponseDataClicks(),
+                            abuse = smtpcom.models.messages_response_data_abuse.MessagesResponseDataAbuse(
                                 complaints = [
-                                    smtp.models.messages_response_data_abuse_complaints.MessagesResponseDataAbuseComplaints(
+                                    smtpcom.models.messages_response_data_abuse_complaints.MessagesResponseDataAbuseComplaints(
                                         report_time = '0', 
                                         provider = '0', )
                                     ], ), 
-                            unsubs = smtp.models.messages_response_data_unsubs.MessagesResponseDataUnsubs(), )
+                            unsubs = smtpcom.models.messages_response_data_unsubs.MessagesResponseDataUnsubs(), )
                         ], )
             )
         else :

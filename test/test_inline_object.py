@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.inline_object import InlineObject  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.inline_object import InlineObject  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestInlineObject(unittest.TestCase):
     """InlineObject unit test stubs"""
@@ -34,43 +34,43 @@ class TestInlineObject(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.inline_object.InlineObject()  # noqa: E501
+        # model = smtpcom.models.inline_object.InlineObject()  # noqa: E501
         if include_optional :
             return InlineObject(
                 channel = '0', 
-                recipients = smtp.models.V4MessagesRecipients(
+                recipients = smtpcom.models.V4MessagesRecipients(
                     to = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     cc = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bcc = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bulk_list = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], ), 
-                originator = smtp.models.V4MessagesOriginator(
-                    _from = smtp.models.V4MessagesRecipientsTo(
+                originator = smtpcom.models.V4MessagesOriginator(
+                    _from = smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), 
-                    reply_to = smtp.models.V4MessagesRecipientsTo(
+                    reply_to = smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), ), 
                 custom_headers = None, 
                 subject = '0', 
-                body = smtp.models.V4MessagesBody(
+                body = smtpcom.models.V4MessagesBody(
                     parts = [
-                        smtp.models.V4MessagesBodyParts(
+                        smtpcom.models.V4MessagesBodyParts(
                             version = '0', 
                             type = '0', 
                             charset = '0', 
@@ -78,7 +78,7 @@ class TestInlineObject(unittest.TestCase):
                             content = '0', )
                         ], 
                     attachments = [
-                        smtp.models.V4MessagesBodyAttachments(
+                        smtpcom.models.V4MessagesBodyAttachments(
                             version = '0', 
                             type = '0', 
                             disposition = '0', 

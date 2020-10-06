@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.bad_request_schema_data import BadRequestSchemaData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.bad_request_schema_data import BadRequestSchemaData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestBadRequestSchemaData(unittest.TestCase):
     """BadRequestSchemaData unit test stubs"""
@@ -34,7 +34,7 @@ class TestBadRequestSchemaData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.bad_request_schema_data.BadRequestSchemaData()  # noqa: E501
+        # model = smtpcom.models.bad_request_schema_data.BadRequestSchemaData()  # noqa: E501
         if include_optional :
             return BadRequestSchemaData(
                 errors = KeyError()

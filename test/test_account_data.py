@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.account_data import AccountData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.account_data import AccountData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestAccountData(unittest.TestCase):
     """AccountData unit test stubs"""
@@ -34,7 +34,7 @@ class TestAccountData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.account_data.AccountData()  # noqa: E501
+        # model = smtpcom.models.account_data.AccountData()  # noqa: E501
         if include_optional :
             return AccountData(
                 status = '0', 
@@ -44,7 +44,7 @@ class TestAccountData(unittest.TestCase):
                 website = '0', 
                 email = '0', 
                 company_name = '0', 
-                address = smtp.models.account_data_address.AccountDataAddress(
+                address = smtpcom.models.account_data_address.AccountDataAddress(
                     street = '0', 
                     city = '0', 
                     state = '0', 

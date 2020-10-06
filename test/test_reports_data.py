@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.reports_data import ReportsData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.reports_data import ReportsData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestReportsData(unittest.TestCase):
     """ReportsData unit test stubs"""
@@ -34,11 +34,11 @@ class TestReportsData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.reports_data.ReportsData()  # noqa: E501
+        # model = smtpcom.models.reports_data.ReportsData()  # noqa: E501
         if include_optional :
             return ReportsData(
                 periodic = [
-                    smtp.models.reports_data_periodic.ReportsDataPeriodic(
+                    smtpcom.models.reports_data_periodic.ReportsDataPeriodic(
                         frequency = 'monthly', 
                         report_id = '0', 
                         events = '0', 
@@ -46,7 +46,7 @@ class TestReportsData(unittest.TestCase):
                         report_time = '0', )
                     ], 
                 ondemand = [
-                    smtp.models.reports_data_ondemand.ReportsDataOndemand(
+                    smtpcom.models.reports_data_ondemand.ReportsDataOndemand(
                         status = 'in_progress', 
                         name = '0', 
                         url = '0', 

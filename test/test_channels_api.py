@@ -15,16 +15,16 @@ from __future__ import absolute_import
 
 import unittest
 
-import smtp
-from smtp.api.channels_api import ChannelsApi  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.api.channels_api import ChannelsApi  # noqa: E501
+from smtpcom.rest import ApiException
 
 
 class TestChannelsApi(unittest.TestCase):
     """ChannelsApi unit test stubs"""
 
     def setUp(self):
-        self.api = smtp.api.channels_api.ChannelsApi()  # noqa: E501
+        self.api = smtpcom.api.channels_api.ChannelsApi()  # noqa: E501
 
     def tearDown(self):
         pass

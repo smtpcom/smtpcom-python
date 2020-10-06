@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.get_alert_details import GetAlertDetails  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.get_alert_details import GetAlertDetails  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestGetAlertDetails(unittest.TestCase):
     """GetAlertDetails unit test stubs"""
@@ -34,11 +34,11 @@ class TestGetAlertDetails(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.get_alert_details.GetAlertDetails()  # noqa: E501
+        # model = smtpcom.models.get_alert_details.GetAlertDetails()  # noqa: E501
         if include_optional :
             return GetAlertDetails(
                 status = '0', 
-                data = smtp.models.get_alert_details_data.GetAlertDetailsData(
+                data = smtpcom.models.get_alert_details_data.GetAlertDetailsData(
                     type = 'monthly_quota', 
                     threshold = '0.5', 
                     alert_id = '0', )

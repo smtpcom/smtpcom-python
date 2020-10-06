@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.get_domain_details_response_data import GetDomainDetailsResponseData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.get_domain_details_response_data import GetDomainDetailsResponseData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestGetDomainDetailsResponseData(unittest.TestCase):
     """GetDomainDetailsResponseData unit test stubs"""
@@ -34,7 +34,7 @@ class TestGetDomainDetailsResponseData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.get_domain_details_response_data.GetDomainDetailsResponseData()  # noqa: E501
+        # model = smtpcom.models.get_domain_details_response_data.GetDomainDetailsResponseData()  # noqa: E501
         if include_optional :
             return GetDomainDetailsResponseData(
                 domain_name = '0', 

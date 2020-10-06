@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.mime_response import MimeResponse  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.mime_response import MimeResponse  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestMimeResponse(unittest.TestCase):
     """MimeResponse unit test stubs"""
@@ -34,11 +34,11 @@ class TestMimeResponse(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.mime_response.MimeResponse()  # noqa: E501
+        # model = smtpcom.models.mime_response.MimeResponse()  # noqa: E501
         if include_optional :
             return MimeResponse(
                 status = '0', 
-                data = smtp.models.post_message_response_data.PostMessageResponseData(
+                data = smtpcom.models.post_message_response_data.PostMessageResponseData(
                     msg_id = '0', )
             )
         else :

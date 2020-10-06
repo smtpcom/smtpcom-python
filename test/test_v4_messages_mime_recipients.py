@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.v4_messages_mime_recipients import V4MessagesMimeRecipients  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.v4_messages_mime_recipients import V4MessagesMimeRecipients  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestV4MessagesMimeRecipients(unittest.TestCase):
     """V4MessagesMimeRecipients unit test stubs"""
@@ -34,26 +34,26 @@ class TestV4MessagesMimeRecipients(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.v4_messages_mime_recipients.V4MessagesMimeRecipients()  # noqa: E501
+        # model = smtpcom.models.v4_messages_mime_recipients.V4MessagesMimeRecipients()  # noqa: E501
         if include_optional :
             return V4MessagesMimeRecipients(
                 to = [
-                    smtp.models.V4MessagesRecipientsTo(
+                    smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ], 
                 cc = [
-                    smtp.models.V4MessagesRecipientsTo(
+                    smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ], 
                 bcc = [
-                    smtp.models.V4MessagesRecipientsTo(
+                    smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ], 
                 bulk_list = [
-                    smtp.models.V4MessagesRecipientsTo(
+                    smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', )
                     ]

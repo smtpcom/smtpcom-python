@@ -24,12 +24,12 @@ Get Channel Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -39,7 +39,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -49,7 +49,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -59,15 +59,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 
     try:
@@ -82,12 +82,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -97,7 +97,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -107,7 +107,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -117,15 +117,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 
     try:
@@ -140,12 +140,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -155,7 +155,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -165,7 +165,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -175,15 +175,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 
     try:
@@ -235,12 +235,12 @@ Get All Channels
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -250,7 +250,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -260,7 +260,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -270,15 +270,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     
     try:
         # Get All Channels
@@ -292,12 +292,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -307,7 +307,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -317,7 +317,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -327,15 +327,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     
     try:
         # Get All Channels
@@ -349,12 +349,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -364,7 +364,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -374,7 +374,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -384,15 +384,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     
     try:
         # Get All Channels
@@ -440,12 +440,12 @@ Delete a Channel
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -455,7 +455,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -465,7 +465,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -475,15 +475,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 
     try:
@@ -498,12 +498,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -513,7 +513,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -523,7 +523,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -533,15 +533,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 
     try:
@@ -556,12 +556,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -571,7 +571,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -581,7 +581,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -591,15 +591,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 
     try:
@@ -649,12 +649,12 @@ Update Channel Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -664,7 +664,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -674,7 +674,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -684,15 +684,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 smtp_username = 'smtp_username_example' # str | Username for the channel (optional)
 smtp_password = 'smtp_password_example' # str | Password for the channel (optional)
@@ -710,12 +710,12 @@ quota = 56 # int | Quota for the channel (optional)
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -725,7 +725,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -735,7 +735,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -745,15 +745,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 smtp_username = 'smtp_username_example' # str | Username for the channel (optional)
 smtp_password = 'smtp_password_example' # str | Password for the channel (optional)
@@ -771,12 +771,12 @@ quota = 56 # int | Quota for the channel (optional)
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -786,7 +786,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -796,7 +796,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -806,15 +806,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 smtp_username = 'smtp_username_example' # str | Username for the channel (optional)
 smtp_password = 'smtp_password_example' # str | Password for the channel (optional)
@@ -870,12 +870,12 @@ Create a New Channel
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -885,7 +885,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -895,7 +895,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -905,15 +905,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 smtp_username = 'smtp_username_example' # str | Username for the channel
 smtp_password = 'smtp_password_example' # str | Password for the channel
@@ -931,12 +931,12 @@ quota = 56 # int | Quota for the channel
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -946,7 +946,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -956,7 +956,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -966,15 +966,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 smtp_username = 'smtp_username_example' # str | Username for the channel
 smtp_password = 'smtp_password_example' # str | Password for the channel
@@ -992,12 +992,12 @@ quota = 56 # int | Quota for the channel
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1007,7 +1007,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1017,7 +1017,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1027,15 +1027,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.ChannelsApi(api_client)
+    api_instance = smtpcom.ChannelsApi(api_client)
     name = 'name_example' # str | Name of the channel (sender)
 smtp_username = 'smtp_username_example' # str | Username for the channel
 smtp_password = 'smtp_password_example' # str | Password for the channel

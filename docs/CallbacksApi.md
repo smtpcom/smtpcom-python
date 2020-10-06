@@ -24,12 +24,12 @@ Delete All Callbacks
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -39,7 +39,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -49,7 +49,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -59,15 +59,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     
     try:
         # Delete All Callbacks
@@ -81,12 +81,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -96,7 +96,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -106,7 +106,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -116,15 +116,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     
     try:
         # Delete All Callbacks
@@ -138,12 +138,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -153,7 +153,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -163,7 +163,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -173,15 +173,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     
     try:
         # Delete All Callbacks
@@ -227,12 +227,12 @@ Delete Callback
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -242,7 +242,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -252,7 +252,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -262,15 +262,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 
@@ -286,12 +286,12 @@ channel = 'channel_example' # str | Name of the channel for which the callback h
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -301,7 +301,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -311,7 +311,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -321,15 +321,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 
@@ -345,12 +345,12 @@ channel = 'channel_example' # str | Name of the channel for which the callback h
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -360,7 +360,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -370,7 +370,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -380,15 +380,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 
@@ -440,12 +440,12 @@ Get Callback Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -455,7 +455,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -465,7 +465,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -475,15 +475,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 
@@ -499,12 +499,12 @@ channel = 'channel_example' # str | Name of the channel for which the callback h
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -514,7 +514,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -524,7 +524,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -534,15 +534,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 
@@ -558,12 +558,12 @@ channel = 'channel_example' # str | Name of the channel for which the callback h
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -573,7 +573,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -583,7 +583,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -593,15 +593,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 
@@ -653,12 +653,12 @@ Update Callback Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -668,7 +668,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -678,7 +678,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -688,15 +688,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 medium = 'medium_example' # str | Medium by which the callback data is sent. Possible values are one of:   * http   * aws  (optional)
@@ -715,12 +715,12 @@ aws_data = 'aws_data_example' # str | Amazon SQS settings. ``` {key:string, secr
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -730,7 +730,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -740,7 +740,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -750,15 +750,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 medium = 'medium_example' # str | Medium by which the callback data is sent. Possible values are one of:   * http   * aws  (optional)
@@ -777,12 +777,12 @@ aws_data = 'aws_data_example' # str | Amazon SQS settings. ``` {key:string, secr
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -792,7 +792,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -802,7 +802,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -812,15 +812,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created
 medium = 'medium_example' # str | Medium by which the callback data is sent. Possible values are one of:   * http   * aws  (optional)
@@ -878,12 +878,12 @@ Create Callback
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -893,7 +893,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -903,7 +903,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -913,15 +913,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created.
 medium = 'medium_example' # str | Medium to send callback data. Valid values are one of:   * http   * sqs 
@@ -940,12 +940,12 @@ aws_data = 'aws_data_example' # str | Amazon SQS settings. ``` {key:string, secr
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -955,7 +955,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -965,7 +965,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -975,15 +975,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created.
 medium = 'medium_example' # str | Medium to send callback data. Valid values are one of:   * http   * sqs 
@@ -1002,12 +1002,12 @@ aws_data = 'aws_data_example' # str | Amazon SQS settings. ``` {key:string, secr
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1017,7 +1017,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1027,7 +1027,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1037,15 +1037,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     event = 'event_example' # str | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 channel = 'channel_example' # str | Name of the channel for which the callback has been created.
 medium = 'medium_example' # str | Medium to send callback data. Valid values are one of:   * http   * sqs 
@@ -1103,12 +1103,12 @@ List All Callbacks
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1118,7 +1118,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1128,7 +1128,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1138,15 +1138,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     
     try:
         # List All Callbacks
@@ -1160,12 +1160,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1175,7 +1175,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1185,7 +1185,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1195,15 +1195,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     
     try:
         # List All Callbacks
@@ -1217,12 +1217,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1232,7 +1232,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1242,7 +1242,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1252,15 +1252,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     
     try:
         # List All Callbacks
@@ -1308,12 +1308,12 @@ Review all callback logs for a specific channel. It may help debug issues relate
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1323,7 +1323,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1333,7 +1333,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1343,15 +1343,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     channel = 'channel_example' # str | Name of the channel for which the given callback has been created
 limit = 56 # int | Number of items to return in the response. Default is 20 (optional)
 
@@ -1367,12 +1367,12 @@ limit = 56 # int | Number of items to return in the response. Default is 20 (opt
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1382,7 +1382,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1392,7 +1392,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1402,15 +1402,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     channel = 'channel_example' # str | Name of the channel for which the given callback has been created
 limit = 56 # int | Number of items to return in the response. Default is 20 (optional)
 
@@ -1426,12 +1426,12 @@ limit = 56 # int | Number of items to return in the response. Default is 20 (opt
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1441,7 +1441,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1451,7 +1451,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1461,15 +1461,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.CallbacksApi(api_client)
+    api_instance = smtpcom.CallbacksApi(api_client)
     channel = 'channel_example' # str | Name of the channel for which the given callback has been created
 limit = 56 # int | Number of items to return in the response. Default is 20 (optional)
 

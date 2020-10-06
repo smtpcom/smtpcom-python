@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.messages_response_data_clicks import MessagesResponseDataClicks  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.messages_response_data_clicks import MessagesResponseDataClicks  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestMessagesResponseDataClicks(unittest.TestCase):
     """MessagesResponseDataClicks unit test stubs"""
@@ -34,11 +34,11 @@ class TestMessagesResponseDataClicks(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.messages_response_data_clicks.MessagesResponseDataClicks()  # noqa: E501
+        # model = smtpcom.models.messages_response_data_clicks.MessagesResponseDataClicks()  # noqa: E501
         if include_optional :
             return MessagesResponseDataClicks(
                 items = [
-                    smtp.models.messages_response_data_clicks_items.MessagesResponseDataClicksItems(
+                    smtpcom.models.messages_response_data_clicks_items.MessagesResponseDataClicksItems(
                         click_time = '0', 
                         remote_ip = '0', 
                         ua = '0', )

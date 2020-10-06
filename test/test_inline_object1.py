@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.inline_object1 import InlineObject1  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.inline_object1 import InlineObject1  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestInlineObject1(unittest.TestCase):
     """InlineObject1 unit test stubs"""
@@ -34,37 +34,37 @@ class TestInlineObject1(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.inline_object1.InlineObject1()  # noqa: E501
+        # model = smtpcom.models.inline_object1.InlineObject1()  # noqa: E501
         if include_optional :
             return InlineObject1(
                 mime = '0', 
                 channel = '0', 
-                recipients = smtp.models.V4MessagesMimeRecipients(
+                recipients = smtpcom.models.V4MessagesMimeRecipients(
                     to = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     cc = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bcc = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], 
                     bulk_list = [
-                        smtp.models.V4MessagesRecipientsTo(
+                        smtpcom.models.V4MessagesRecipientsTo(
                             name = '0', 
                             address = '0', )
                         ], ), 
-                originator = smtp.models.V4MessagesOriginator(
-                    _from = smtp.models.V4MessagesRecipientsTo(
+                originator = smtpcom.models.V4MessagesOriginator(
+                    _from = smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), 
-                    reply_to = smtp.models.V4MessagesRecipientsTo(
+                    reply_to = smtpcom.models.V4MessagesRecipientsTo(
                         name = '0', 
                         address = '0', ), )
             )

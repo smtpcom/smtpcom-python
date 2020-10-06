@@ -28,12 +28,12 @@ Deletes a domain that was previously registered by the current account.
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -43,7 +43,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -53,7 +53,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -63,15 +63,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -86,12 +86,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -101,7 +101,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -111,7 +111,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -121,15 +121,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -144,12 +144,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -159,7 +159,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -169,7 +169,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -179,15 +179,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -237,12 +237,12 @@ Delete DKIM for Domain
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -252,7 +252,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -262,7 +262,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -272,15 +272,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -295,12 +295,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -310,7 +310,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -320,7 +320,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -330,15 +330,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -353,12 +353,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -368,7 +368,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -378,7 +378,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -388,15 +388,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -446,12 +446,12 @@ Get DKIM for Domain
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -461,7 +461,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -471,7 +471,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -481,15 +481,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -504,12 +504,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -519,7 +519,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -529,7 +529,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -539,15 +539,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -562,12 +562,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -577,7 +577,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -587,7 +587,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -597,15 +597,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -655,12 +655,12 @@ Update DKIM Key Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -670,7 +670,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -680,7 +680,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -690,15 +690,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 selector = 'selector_example' # str | Name of DKIM selector for this domain
 private_key = 'private_key_example' # str | Private key of the DKIM record
@@ -715,12 +715,12 @@ private_key = 'private_key_example' # str | Private key of the DKIM record
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -730,7 +730,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -740,7 +740,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -750,15 +750,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 selector = 'selector_example' # str | Name of DKIM selector for this domain
 private_key = 'private_key_example' # str | Private key of the DKIM record
@@ -775,12 +775,12 @@ private_key = 'private_key_example' # str | Private key of the DKIM record
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -790,7 +790,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -800,7 +800,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -810,15 +810,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 selector = 'selector_example' # str | Name of DKIM selector for this domain
 private_key = 'private_key_example' # str | Private key of the DKIM record
@@ -872,12 +872,12 @@ Add DKIM for Domain
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -887,7 +887,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -897,7 +897,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -907,15 +907,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 selector = 'selector_example' # str | Name of DKIM selector for this domain
 private_key = 'private_key_example' # str | Private key of the DKIM record
@@ -932,12 +932,12 @@ private_key = 'private_key_example' # str | Private key of the DKIM record
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -947,7 +947,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -957,7 +957,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -967,15 +967,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 selector = 'selector_example' # str | Name of DKIM selector for this domain
 private_key = 'private_key_example' # str | Private key of the DKIM record
@@ -992,12 +992,12 @@ private_key = 'private_key_example' # str | Private key of the DKIM record
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1007,7 +1007,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1017,7 +1017,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1027,15 +1027,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 selector = 'selector_example' # str | Name of DKIM selector for this domain
 private_key = 'private_key_example' # str | Private key of the DKIM record
@@ -1089,12 +1089,12 @@ Get Domain Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1104,7 +1104,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1114,7 +1114,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1124,15 +1124,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -1147,12 +1147,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1162,7 +1162,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1172,7 +1172,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1182,15 +1182,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -1205,12 +1205,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1220,7 +1220,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1230,7 +1230,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1240,15 +1240,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 
     try:
@@ -1298,12 +1298,12 @@ Update Domain Details
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1313,7 +1313,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1323,7 +1323,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1333,15 +1333,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 enabled = True # bool | Whether the domain is enabled
 
@@ -1357,12 +1357,12 @@ enabled = True # bool | Whether the domain is enabled
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1372,7 +1372,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1382,7 +1382,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1392,15 +1392,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 enabled = True # bool | Whether the domain is enabled
 
@@ -1416,12 +1416,12 @@ enabled = True # bool | Whether the domain is enabled
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1431,7 +1431,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1441,7 +1441,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1451,15 +1451,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name of interest
 enabled = True # bool | Whether the domain is enabled
 
@@ -1513,12 +1513,12 @@ Returns all domains registered by this account
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1528,7 +1528,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1538,7 +1538,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1548,15 +1548,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     
     try:
         # Get All Registered Domains
@@ -1570,12 +1570,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1585,7 +1585,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1595,7 +1595,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1605,15 +1605,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     
     try:
         # Get All Registered Domains
@@ -1627,12 +1627,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1642,7 +1642,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1652,7 +1652,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1662,15 +1662,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     
     try:
         # Get All Registered Domains
@@ -1718,12 +1718,12 @@ Add a new domain to the list of account's registered domains
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1733,7 +1733,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1743,7 +1743,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1753,15 +1753,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name to add
 
     try:
@@ -1776,12 +1776,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1791,7 +1791,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1801,7 +1801,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1811,15 +1811,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name to add
 
     try:
@@ -1834,12 +1834,12 @@ with smtp.ApiClient(configuration) as api_client:
 ```python
 from __future__ import print_function
 import time
-import smtp
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.rest import ApiException
 from pprint import pprint
 # Defining the host is optional and defaults to https://api.smtp.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com"
 )
 
@@ -1849,7 +1849,7 @@ configuration = smtp.Configuration(
 # satisfies your auth use case.
 
 # Configure API key authorization: apiID
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiID': 'YOUR_API_KEY'
@@ -1859,7 +1859,7 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiID'] = 'Bearer'
 
 # Configure API key authorization: apiKey
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     host = "https://api.smtp.com",
     api_key = {
         'apiKey': 'YOUR_API_KEY'
@@ -1869,15 +1869,15 @@ configuration = smtp.Configuration(
 # configuration.api_key_prefix['apiKey'] = 'Bearer'
 
 # Configure HTTP basic authorization: basicAuth
-configuration = smtp.Configuration(
+configuration = smtpcom.Configuration(
     username = 'YOUR_USERNAME',
     password = 'YOUR_PASSWORD'
 )
 
 # Enter a context with an instance of the API client
-with smtp.ApiClient(configuration) as api_client:
+with smtpcom.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = smtp.DKIMsApi(api_client)
+    api_instance = smtpcom.DKIMsApi(api_client)
     domain_name = 'domain_name_example' # str | Domain name to add
 
     try:

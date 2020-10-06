@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.post_message_response_data import PostMessageResponseData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.post_message_response_data import PostMessageResponseData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestPostMessageResponseData(unittest.TestCase):
     """PostMessageResponseData unit test stubs"""
@@ -34,7 +34,7 @@ class TestPostMessageResponseData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.post_message_response_data.PostMessageResponseData()  # noqa: E501
+        # model = smtpcom.models.post_message_response_data.PostMessageResponseData()  # noqa: E501
         if include_optional :
             return PostMessageResponseData(
                 msg_id = '0'

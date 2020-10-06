@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.channel_data import ChannelData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.channel_data import ChannelData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestChannelData(unittest.TestCase):
     """ChannelData unit test stubs"""
@@ -34,7 +34,7 @@ class TestChannelData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.channel_data.ChannelData()  # noqa: E501
+        # model = smtpcom.models.channel_data.ChannelData()  # noqa: E501
         if include_optional :
             return ChannelData(
                 status = '0', 

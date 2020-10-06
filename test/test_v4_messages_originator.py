@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.v4_messages_originator import V4MessagesOriginator  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.v4_messages_originator import V4MessagesOriginator  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestV4MessagesOriginator(unittest.TestCase):
     """V4MessagesOriginator unit test stubs"""
@@ -34,13 +34,13 @@ class TestV4MessagesOriginator(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.v4_messages_originator.V4MessagesOriginator()  # noqa: E501
+        # model = smtpcom.models.v4_messages_originator.V4MessagesOriginator()  # noqa: E501
         if include_optional :
             return V4MessagesOriginator(
-                _from = smtp.models.V4MessagesRecipientsTo(
+                _from = smtpcom.models.V4MessagesRecipientsTo(
                     name = '0', 
                     address = '0', ), 
-                reply_to = smtp.models.V4MessagesRecipientsTo(
+                reply_to = smtpcom.models.V4MessagesRecipientsTo(
                     name = '0', 
                     address = '0', )
             )

@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.create_dkim_key_data import CreateDkimKeyData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.create_dkim_key_data import CreateDkimKeyData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestCreateDkimKeyData(unittest.TestCase):
     """CreateDkimKeyData unit test stubs"""
@@ -34,7 +34,7 @@ class TestCreateDkimKeyData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.create_dkim_key_data.CreateDkimKeyData()  # noqa: E501
+        # model = smtpcom.models.create_dkim_key_data.CreateDkimKeyData()  # noqa: E501
         if include_optional :
             return CreateDkimKeyData(
                 dkim_key = '0'

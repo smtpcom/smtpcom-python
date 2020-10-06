@@ -16,9 +16,9 @@ from __future__ import absolute_import
 import unittest
 import datetime
 
-import smtp
-from smtp.models.invalid_key_data import InvalidKeyData  # noqa: E501
-from smtp.rest import ApiException
+import smtpcom
+from smtpcom.models.invalid_key_data import InvalidKeyData  # noqa: E501
+from smtpcom.rest import ApiException
 
 class TestInvalidKeyData(unittest.TestCase):
     """InvalidKeyData unit test stubs"""
@@ -34,11 +34,11 @@ class TestInvalidKeyData(unittest.TestCase):
             include_option is a boolean, when False only required
             params are included, when True both required and
             optional params are included """
-        # model = smtp.models.invalid_key_data.InvalidKeyData()  # noqa: E501
+        # model = smtpcom.models.invalid_key_data.InvalidKeyData()  # noqa: E501
         if include_optional :
             return InvalidKeyData(
                 errors = [
-                    smtp.models.invalid_key_data_errors.InvalidKeyDataErrors(
+                    smtpcom.models.invalid_key_data_errors.InvalidKeyDataErrors(
                         error_field = '0', )
                     ]
             )
